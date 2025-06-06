@@ -1,13 +1,11 @@
 """
-Testes para app.py
+Testes para o módulo app.py
 """
 
 from app import soma
 
 def test_soma():
-    """Função de teste para o arquivo app"""
+    """Teste para a função soma"""
     assert soma(2, 3) == 5
 
-def test_main():
-    """Main do teste"""
-    pass
+# Removido test_main() por não ter implementação
