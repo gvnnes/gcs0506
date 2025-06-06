@@ -1,11 +1,7 @@
-"""
-app
-"""
-
-def soma(a,b):
-"""Função que faz soma de dois numeros"""
-  return a + b
+def soma(a, b):
+    """Função que faz soma de dois números"""
+    return a + b
 
 def main():
-  """função principal"""
+    """Função principal"""
     pass
