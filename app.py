@@ -1,7 +1,10 @@
+"""
+Módulo principal do aplicativo.
+Contém funções de exemplo como soma.
+"""
+
 def soma(a, b):
-    """Função que faz soma de dois números"""
+    """Função que faz a soma de dois números"""
     return a + b
 
-def main():
-    """Função principal"""
-    pass
+# Removido main() por estar vazio e gerar warning
